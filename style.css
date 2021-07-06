@@ -1,0 +1,161 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 60px;
+}
+.pink{
+    color: yellowgreen;
+}
+.flex-container{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 10px;
+     padding-right: 50px;
+}
+.half-width{
+    color: grey;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.para{
+    margin: -30px 0px -15px 0px;   
+}
+.para1{
+    padding-bottom: 40px;
+}
+.half-width-photo{
+    margin-top: 90px;
+}
+.half-width-photo1{
+    margin-top: 195px;
+     padding-top: 20px;
+}
+.half-width-photo img{
+    width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+}
+button{
+    background-image: linear-gradient(#FE472D,#fb9a4c);
+    color: white;
+    font-size: 20px;
+    font-weight: 50px;
+    border-radius: 40px;
+    border: 1px solid orange;
+    padding: 20px 40px;
+     box-shadow: 1px 5px 30px rgb(228, 116, 72);
+}
+button:hover{
+    border-color: white;
+    background-image: linear-gradient(yellow, yellowgreen);
+}
+.story{
+    background-image: url(images/shapes/7.png);
+    height: 109vh;
+}
+
+.half-width-recipe{
+   text-align: center;
+   margin-bottom: 100px;
+   padding-left: 20%;
+   padding-right: 20%;
+}
+.half-width-recipe h2{
+    font-size: 40px;
+    color: grey;
+}
+.half-width-recipe p{
+      padding-top: -200px;
+}
+.recipe1{
+    margin-left: 8%;
+    margin-right: 3%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgb(161, 161, 161);
+    border: 20px solid white;
+}
+.recipe1:hover{
+    box-shadow: 1px 5px 30px rgb(219, 89, 89);
+}
+.recipe1 img{
+    width: 290px;
+    height: 250px;
+}
+
+.recipe2 {
+    margin-left: 2%;
+    margin-right: 3%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgb(161, 161, 161);
+     border: 20px solid white;
+}
+.recipe2:hover{
+    box-shadow: 1px 5px 30px rgb(219, 89, 89);
+}
+.recipe2 img{
+    width: 290px;
+    height: 250px;
+}
+.recipe3 {
+    margin-left: 2%;
+    margin-right: 10%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgb(161, 161, 161);
+     border: 20px solid white;
+}
+.recipe3:hover{
+     box-shadow: 1px 5px 30px rgb(219, 89, 89);
+}
+.recipe3 img{
+    width: 290px;
+    height: 250px;
+}
+.views{
+    margin-bottom: 7.5%;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding-right: 1%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgb(219, 217, 217);
+     border: 20px solid white;
+}
+.views:hover{
+   box-shadow: 1px 5px 30px rgb(89, 91, 219);
+}
+
+#footer {
+    background-color: #0B0D17;
+    height: 41vh;
+    color: grey;
+    text-align: center;
+}
+
+#header{
+    color: yellowgreen;
+}
+.email{
+    text-align: center;
+    padding-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+     box-shadow: 1px 5px 30px rgb(218, 112, 182);
+     border-radius: 30px;
+}
+.email h2{
+    color:rgb(219, 55, 104);
+}
+#copyright{
+   padding-top: 50px;
+}
