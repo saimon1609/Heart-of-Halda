@@ -150,8 +150,11 @@ button:hover{
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
-     box-shadow: 1px 5px 30px rgb(218, 112, 182);
-     border-radius: 30px;
+    border-radius: 30px;
+}
+.email:hover{
+      box-shadow: 1px 5px 30px rgb(218, 112, 182);
+      border-radius: 30px;
 }
 .email h2{
     color:rgb(219, 55, 104);
