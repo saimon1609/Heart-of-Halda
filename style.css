@@ -2,6 +2,31 @@ body{
     font-family: "Poppins", sans-serif;
     margin: 0px;
 }
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(#FE472D,#fb9a4c);
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: rgb(253, 253, 253);
+}
+
 h1{
     font-size: 60px;
 }
@@ -71,6 +96,36 @@ button:hover{
     height: 109vh;
 }
 
+.Tutorial{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 100px;
+    color: grey;
+}
+.video-section:hover{
+    box-shadow: 1px 5px 30px rgb(219, 89, 89);
+    border-radius: 30px;
+}
+
+.video-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 80%;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    box-shadow: 1px 5px 30px rgb(169, 192, 196);
+}
+.video iframe{
+    border-radius: 30px;
+    border: none;
+}
+
+
 .half-width-recipe{
    text-align: center;
    margin-bottom: 100px;
@@ -85,49 +140,7 @@ button:hover{
 .half-width-recipe p{
       padding-top: -200px;
 }
-.recipe1{
-    margin-left: 12%;
-    margin-right: 3%;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px rgb(161, 161, 161);
-    border: 20px solid white;
-}
-.recipe1:hover{
-    box-shadow: 1px 5px 30px rgb(219, 89, 89);
-}
-.recipe1 img{
-    width: 290px;
-    height: 250px;
-}
 
-.recipe2 {
-    margin-left: 2%;
-    margin-right: 3%;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px rgb(161, 161, 161);
-     border: 20px solid white;
-}
-.recipe2:hover{
-    box-shadow: 1px 5px 30px rgb(219, 89, 89);
-}
-.recipe2 img{
-    width: 290px;
-    height: 250px;
-}
-.recipe3 {
-    margin-left: 2%;
-    margin-right: 10%;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px rgb(161, 161, 161);
-     border: 20px solid white;
-}
-.recipe3:hover{
-     box-shadow: 1px 5px 30px rgb(219, 89, 89);
-}
-.recipe3 img{
-    width: 290px;
-    height: 250px;
-}
 
 
 
@@ -149,50 +162,32 @@ button:hover{
     font-size: 40px;
     color: grey;
 }
-.review1{
-    margin-left: 12%;
-    margin-right: 3%;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px rgb(161, 161, 161);
-    border: 20px solid white;
-}
-.review1:hover{
-    box-shadow: 1px 5px 30px rgb(230, 135, 28);
-}
-.review1 img{
-    border-radius: 25px;
-    width: 290px;
-    height: 250px;
-}
 
-.review2 {
-    margin-left: 2%;
-    margin-right: 3%;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px rgb(161, 161, 161);
-     border: 20px solid white;
+.review-sec, .recipe-sec{
+      display: flex;
+      justify-content: center;
 }
-.review2:hover{
+.review, .recipe{
+  width: 90%;
+  max-width: 270px;
+  overflow: hidden;
+  height: 530px;
+  padding: 30px;
+  box-shadow: 0 0 15px #ddd;
+  margin: 30px;
+  position: relative;
+  border-radius: 20px;
+}
+.review:hover, .recipe:hover{
     box-shadow: 1px 5px 30px rgb(230, 135, 28);
 }
-.review2 img{
-    width: 290px;
-    height: 250px;
-}
-.review3 {
-    margin-left: 2%;
-    margin-right: 10%;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px rgb(161, 161, 161);
-     border: 20px solid white;
-}
-.review3:hover{
-     box-shadow: 1px 5px 30px rgb(230, 135, 28);
-}
-.review3 img{
-    border-radius: 25px;
-    width: 290px;
-    height: 250px;
+.review img, .recipe img{
+  width: 100%;
+  max-width: 250px;
+  height: 280px;
+  display: block;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 
