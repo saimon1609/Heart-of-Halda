@@ -3,6 +3,13 @@ body{
     margin: 0px;
 }
 
+#icon{
+    float: left;
+}
+#icon img{
+    width: 30%;
+    padding-left: 20px;
+}
 .nav ul {
   list-style-type: none;
   margin: 0;
@@ -21,10 +28,12 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav li a:hover {
   background-color: rgb(253, 253, 253);
+  height: 43px;
 }
 
 h1{
@@ -91,12 +100,12 @@ button:hover{
     border-color: white;
     background-image: linear-gradient(yellow, yellowgreen);
 }
-.story{
+#story{
     background-image: url(images/shapes/7.png);
     height: 109vh;
 }
 
-.Tutorial{
+#Tutorial{
     display: flex;
     justify-content: center;
     height: 80vh;
@@ -217,24 +226,30 @@ button:hover{
 #header{
     color: yellowgreen;
 }
-.email{
-    text-align: center;
-    padding-top: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    background-image: url(images/shapes/Frame\ 58.jpg);
+#email{
+    height: 80vh;
+}
+.email-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url(images/shapes/Frame\ 58.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
-    border-radius: 30px;
+    height: 70vh;
 }
-.email:hover{
-      box-shadow: 1px 5px 30px rgb(218, 112, 182);
-      border-radius: 30px;
+.email{
+    text-align: center;
+    /* padding-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px; */
 }
 .email h2{
     color:rgb(219, 55, 104);
+}
+.email span{
+    color: rgb(219, 55, 104);
 }
 #copyright{
    padding-top: 50px;
