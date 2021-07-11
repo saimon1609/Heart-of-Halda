@@ -18,6 +18,7 @@ body{
   background-image: linear-gradient(#FE472D,#fb9a4c);
 }
 
+
 .nav li {
   float: right;
 }
@@ -102,6 +103,7 @@ button:hover{
 }
 #story{
     background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
     height: 109vh;
 }
 
